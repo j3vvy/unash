@@ -10,20 +10,35 @@
     font-family: Gilroy-Medium;
     src: url(../fonts/gilroy-medium.ttf);
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
     margin: 0;
     padding: 0;
     font-family: Gilroy-Medium;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 a{
     text-decoration: none;
     color: black;
 }
+select{
+    outline: none;
+    border: none;   
+}
+input{
+    outline: none;
+    border: none;
+}
 .container{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
 }
 /*-------------------------------------menu-------------------------------------*/
 .container-menu{
@@ -163,6 +178,7 @@ a{
     font-size: 2.5rem;
     text-align: center;
     font-weight: 600;
+    padding: 30px 0px;
 }
 .about-block{
     width: 25%;
@@ -182,18 +198,18 @@ a{
 }
 /*-------------------------------------Table-------------------------------------*/
 .primer{
-      width: 65%;   
+      width: 65%; 
+      margin-bottom: 100px;  
 }
 .primer-h1{
     color: #1B7DC2;
     font-size: 2.5rem;
     text-align: center;
     font-weight: 600;
-    padding: 0px 0px 30px 0px;
+    padding: 30px 0px;
 }
 .primer-content{
     width: 100%;
-    height: 100%;
     background-color: #1B7DC2;
     border-radius: 20px;
     padding: 20px 20px 40px 20px;
@@ -216,7 +232,6 @@ a{
 }
 .primer-content-table{
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -237,6 +252,7 @@ a{
     text-align: center;
     padding: 20px 0px;
     align-items: center;
+    margin-bottom: 20px;
 }
 .table-out{
     background-color: rgb(213, 141, 6);
@@ -268,4 +284,228 @@ a{
 .block{
     visibility: hidden;
 }
-
+/*-------------------------------------sell-------------------------------------*/
+.sell{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B7DC2;
+    color: white;
+    min-height: 650px;
+}
+.sell-content{
+    width: 55%;
+    display: flex;
+}
+.sell-one{
+    width: 100%;
+    padding: 50px 0px;
+    margin-left: 25%;
+}
+.sell-two{
+    width: 35%;
+    min-height: 650px;
+    display: flex;
+    align-items: end;
+}
+.sell-zero{
+    width: 100%;
+    background-image: url(../img/quiz.png);
+    height: 600px;
+    background-size: auto 600px;
+}
+.sell-h1{
+    font-size: 2.3rem;
+    font-family: Gilroy-Medium;
+}
+.sell-text{
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    font-family: Gilroy-Light;   
+}
+.sell-form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 75%;
+    justify-content: space-between;
+}
+.text-area-sell{
+    resize: none;
+}
+.input-sell{
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px 20px; 
+    background-color:#1B7DC2;
+    border: 1px solid #ffffff;
+    font-family: Gilroy-Light;   
+    font-size: 1.1rem;
+    color: white;
+}
+.select-sell{
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px 20px; 
+    border: 1px solid #ffffff;
+    background-color:#1B7DC2;
+    color: white;
+    font-size: 1.1rem;
+}
+.sell-button{
+    height: 50px;
+    border-radius: 25px;   
+    color: white;
+    background-color: rgb(213, 141, 6);
+    font-size: 1.1rem;
+    font-family: Gilroy-Light;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.sell-button:hover{
+    background-color: rgb(234, 156, 11);    
+}
+.sell-label{
+    font-size: 1.1rem;
+}
+input::placeholder{
+    font-family: Gilroy-Light;   
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sell-btn a{
+    color: white;
+    transition: 0.3s;
+}
+.sell-btn{
+    font-family: Gilroy-Light;
+}   
+.sell-btn a:hover{
+    color: rgb(213, 141, 6);
+}
+/*-------------------------------------footer-------------------------------------*/
+.footer{
+    width: 100%;
+    background-color: #1B7DC2;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Gilroy-Light;
+    padding-bottom: 50px;
+}
+.footer a{
+    color: white;
+    transition: 0.2s;
+}
+.footer a:hover{
+    color: rgb(213, 141, 6);
+}
+.footer u{
+    transition: 0.2s;
+}
+.footer u:hover{
+    color: rgb(213, 141, 6);
+}
+.footer-content{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-one{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: space-between;
+    margin-right: 200px;
+    font-size: 1.1rem;
+}
+.footer-two img {
+    width: 150px;
+}
+.send-me{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+.send-me img {
+    width: 50px;
+}
+.send-me:hover{
+    color: rgb(213, 141, 6);
+}
+.ftg {
+    display: flex;
+    justify-content: space-between;
+}
+.ftg img {
+    width: 50px;
+}
+.f-3{
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------------------------send-------------------------------------*/
+.send {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #1B7DC2;
+    transition: 0.2s;
+    
+}
+.send::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    box-shadow: inset 0 0 0 1px #1B7DC2;
+    border-radius: 50%;
+    transition: all 0.9s;
+    animation: inset 0.8s infinite linear;
+}
+@keyframes inset {
+    from {
+      animation-timing-function: ease-out;
+      box-shadow: inset 0 0 0 2px #1B7DC2;
+    }
+    25% {
+      animation-timing-function: ease-out;
+      box-shadow: inset 0 0 0 1.5px #1B7DC2;
+    }
+    50% {
+      animation-timing-function: ease-out;
+      box-shadow: inset 0 0 0 1px #1B7DC2;
+    }
+    25% {
+        animation-timing-function: ease-out;
+        box-shadow: inset 0 0 0 0.5px #adc7da;
+      }
+    75% {
+      animation-timing-function: ease-out;
+      box-shadow: inset 0 0 0 0.5px #adc7da;
+    }
+    to { margin: -24%;
+        box-shadow: inset 0 0 0 0.5px #d9e9f5;
+    }
+  }
+.send img {
+    width: 70px;
+}
+.send:hover{
+    background-color: #3495fd; 
+}
