@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <title>ЮНаша</title>
-        <link rel="icon" href="#">
+        <link rel="icon" href="img/ico.ico">
     </head>
     <body>
         <div class="container-menu">
@@ -15,11 +15,11 @@
                     <img src="img/logo2.png" alt="">
                 </div>
                 <div class="menu">
-                    <a href=""><div class="meni-item">О нас</div></a>
-                    <a href=""><div class="meni-item">Как работает сервис</div></a>
-                    <a href=""><div class="meni-item">Почему мы?</div></a>
-                    <a href=""><div class="meni-item">Отличия</div></a>
-                    <a href=""><div class="meni-item">Продать/купить жилье</div></a>
+                    <a href="#1"><div class="meni-item">О нас</div></a>
+                    <a href="#2"><div class="meni-item">Продать</div></a>
+                    <a href="#3"><div class="meni-item">Как работает сервис</div></a>
+                    <a href="#4"><div class="meni-item">Примеры выкупа</div></a>
+                    <a href="#5"><div class="meni-item">Купить</div></a>
                 </div>
                 <div class="left-menu">
                     <div class="left-menu-info">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <a id="1"></a><div class="container">
             <div class="info-list">
                 <div class="content-info">
                     <div class="info-list-h1">
@@ -57,6 +57,7 @@
                         </div>
                     </div>
                     <div class="warning">
+                        <a id="2"></a>
                         Внимание! 
                         Ни в коем случае не обращайтесь в сомнительные компании, это чревато обманом! 
                         Обязательно проверяйте репутацию агентства недвижимости.
@@ -64,6 +65,34 @@
                 </div>
             </div>
         </div>
+        <div class="sell">
+            <div class="sell-content">
+                <div class="sell-one">
+                    <div class="sell-h1">
+                        Пройдите короткий опрос для получения предлжения
+                    </div>
+                    <div class="sell-text">
+                        Заполните информацию, пожалуйста
+                    </div>
+                    <form class="sell-form">
+                            <label for="select-sell" class="sell-label">В каком городе жилье?</label>        
+                        <select class="select-sell">
+                            <option>Старый Оскол</option>
+                            <option>Губкин</option>
+                        </select>
+                        <input type="text" class="input-sell" placeholder="Ваше имя">
+                        <input type="text" class="input-sell" placeholder="Ваше номер телефона">
+                        <input type="text" class="input-sell area" placeholder="Комментарий (по желанию)">
+                        <input type="button" value="Отправить заявку" class="sell-button" name="sell-btn">
+                        <a id="3"></a> 
+                        <label for="sell-btn" class="sell-btn">Нажимая, вы принимаете <a href="#"><u>политику обработки данных</u></a></label>
+                    </form> 
+                </div>
+            </div>
+            <div class="sell-two">
+                <div class="sell-zero"></div>
+            </div>
+         </div>
         <div class="container">
             <div class="about-info">
                 <div class="about-h1">
@@ -151,6 +180,7 @@
                         <div class="about-block-text">
                             Реальный срочный выкуп! Никаких займов с обременением и прочих сомнительных схем, все прозрачно
                         </div>
+                        <a id="4"></a> 
                     </div>
                 </div>
             </div>
@@ -224,10 +254,87 @@
                                 4 350 000 ₽ <br>
                                 Спустя 1 неделю
                             </div>
+                            <a id="5"></a> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="sell">
+            <div class="sell-content">
+                <div class="sell-one">
+                    <div class="sell-h1">
+                        Пройдите короткий опрос чтобы мы подобрали вам варианты жилья
+                    </div>
+                    <div class="sell-text">
+                        Заполните информацию, пожалуйста
+                    </div>
+                    <form class="sell-form">
+                            <label for="select-sell" class="sell-label">В каком городе нужно жилье?</label>        
+                        <select class="select-sell">
+                            <option>Старый Оскол</option>
+                            <option>Губкин</option>
+                        </select>
+                        <input type="text" class="input-sell" placeholder="Какой у вас бюджет">
+                        <input type="text" class="input-sell" placeholder="Ваше имя">
+                        <input type="text" class="input-sell" placeholder="Ваше номер телефона">
+                        <input type="text" class="input-sell area" placeholder="Комментарий (по желанию)">
+                        <input type="button" value="Отправить заявку" class="sell-button" name="sell-btn">
+                        <label for="sell-btn" class="sell-btn">Нажимая, вы принимаете <a href="#"><u>политику обработки данных</u></a></label>
+                    </form> 
+                </div>
+            </div>
+            <div class="sell-two">
+                <div class="sell-zero"></div>
+            </div>
+         </div>
+         <div class="footer">
+            <div class="footer-content">
+                <div class="footer-one">
+                    <div class="footer-two">
+                        <img src="img/logo.png" alt="">
+                        <div class="send-me">
+                            <img src="img/tg.png" alt="">
+                            <u>Напишите нам</u>
+                        </div>
+                        <div class="ftg">
+                            <a href=""><img src="img/tg.png" alt=""></a>
+                            <a href=""><img src="img/tg.png" alt=""></a>
+                            <a href=""><img src="img/tg.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer-two">
+                        <div class="fnumber">
+                            Телефон в Старом Осколе
+                            <div class="b">+7 (812) 443-8000</div>
+                        </div>
+                        <div class="adr"><u><a href="https://yandex.ru/maps/-/CCUHRCQH-D">г. Старый Оскол, Дубрава 3, д.38</a></u></div>
+                        <div class="fgraf">
+                            Время работы: <br>
+                            9:00 - 21:00 без выходных
+                        </div>
+                    </div>
+                    <div class="footer-two">
+                        <a href="#1">О нас</a>
+                        <a href="#2">Продать</a>
+                        <a href="#3">Как работает сервис</a>
+                        <a href="#4">Примеры выкупа</a>
+                        <a href="#5">Купить</a>
+                    </div>
+                </div>
+                <div class="f-3">
+                    <div class="f-1">                  
+                        © 2023 Агентство недвижимости «ЮНаша»
+                    </div>
+                    <div class="f-1"><a href=""><u>Политика конфиденциальности</u></a></div>
+                    <div class="f-1">ОГРНИП 318784700042521</div>  
+                </div>
+            </div>
+         </div>
+        <a href="#">
+            <div class="send">
+                <img src="img/tg.png" alt="">
+            </div>
+        </a>
     </body>
 </html>
