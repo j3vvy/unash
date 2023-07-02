@@ -192,6 +192,9 @@
         font-size: 13px !important;
         padding: 5px 20px !important;
     }
+        .sell-content{
+        height: 1200px;
+    }
 }
 /*-------------------------------------Обнуление стилей-------------------------------------*/
 html {
