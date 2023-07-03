@@ -157,7 +157,7 @@
         height: 4200px !important;
     }
     .info-list{
-        height: 1200px !important;
+        height: 1500px !important;
     }
     .logo{
         width: 18% !important;
@@ -173,6 +173,9 @@
     }
     .primer-content-h1{
         padding: 20px 2px !important;
+    }
+    .primer-content{
+        width: 95% !important;
     }
     .primer-content-price{
         font-size: 20px !important;
@@ -194,9 +197,6 @@
     }
         .sell-content{
         height: 1200px;
-    }
-    .popup {
-        width: 100% !important;
     }
 }
 /*-------------------------------------Обнуление стилей-------------------------------------*/
