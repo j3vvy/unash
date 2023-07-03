@@ -185,7 +185,7 @@
     }
     .left-menu-info{
         font-size: 13px !important;
-        width: 100% !important;
+        width: 90% !important;
     }
     .menu-button{
         width: 60% !important;
@@ -194,6 +194,9 @@
     }
         .sell-content{
         height: 1200px;
+    }
+    .popup {
+        width: 100% !important;
     }
 }
 /*-------------------------------------Обнуление стилей-------------------------------------*/
