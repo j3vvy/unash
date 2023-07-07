@@ -351,6 +351,9 @@
     .m {
         margin-bottom: 22px !important;
     }
+    .swiper-slide {
+        justify-content: center !important;
+    }
 }
 /*-------------------------------------Обнуление стилей-------------------------------------*/
 html {
@@ -402,7 +405,7 @@ input{
     text-align: center;
     font-size: 18px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 .header{

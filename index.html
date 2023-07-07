@@ -8,7 +8,12 @@
         <title>ЮНаша</title>
         <link rel="icon" href="img/ico.ico">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script type="text/javascript">
+            if(window.innerWidth < 480)
+              document.write('<scri'+'pt src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></'+'script>');
+            else
+              document.write('<scri'+'pt src=" "></'+'script>');
+            </script>
     </head>
     <body>
         <div class="container-menu">
@@ -107,8 +112,24 @@
                                             Мы встречаемся для обсуждения деталий и оценки жилья
                                         </div>
                                     </div>
+                                    <div class="about-block none">
+                                        <div class="about-block-img">
+                                            <img src="img/4.png" alt="">
+                                        </div>
+                                        <div class="about-block-text">
+                                        Вы получаете предоплату в течение суток, мы готовим сделку
+                                        </div>
+                                    </div>
+                                    <div class="about-block none">
+                                        <div class="about-block-img">
+                                            <img src="img/5.png" alt="">
+                                        </div>
+                                        <div class="about-block-text">
+                                            В течение нескольких дней мы выкупаем квартиру, Вы получаете оставшиеся деньги
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide" id="swiper">
                                     <div class="about-block">
                                         <div class="about-block-img">
                                             <img src="img/4.png" alt="">
@@ -118,7 +139,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide" id="swiper">
                                     <div class="about-block">
                                         <div class="about-block-img">
                                             <img src="img/5.png" alt="">
@@ -145,6 +166,22 @@
                                     </div>
                                     <div class="about-block-text">
                                         Нужно срочно продать квартиру и быстро получить деньги
+                                    </div>
+                                </div>
+                                <div class="about-block none">
+                                    <div class="about-block-img">
+                                        <img src="img/7.png" alt="">
+                                    </div>
+                                    <div class="about-block-text">
+                                        Срочный выкуп квартиры из-под залога или ипотеки банка, ареста
+                                    </div>
+                                </div>
+                                <div class="about-block none">
+                                    <div class="about-block-img">
+                                        <img src="img/8.png" alt=""> 
+                                    </div>
+                                    <div class="about-block-text">
+                                        Накопились долги по квартире либо есть другие проблемы                                
                                     </div>
                                 </div>
                             </div>
@@ -187,6 +224,22 @@
                             Надежное агентство недвижимости, давно на рынке, отличная репутация
                         </div>
                     </div>
+                    <div class="about-block none">
+                        <div class="about-block-img">
+                            <img src="img/10.png" alt=""> 
+                        </div>
+                        <div class="about-block-text">
+                            Высоко оценим выкупаемую квартиру, оплатим все расходы по сделке. От вас минимум забот.
+                        </div>
+                    </div>
+                    <div class="about-block none">
+                        <div class="about-block-img">
+                            <img src="img/11.png" alt=""> 
+                        </div>
+                        <div class="about-block-text">
+                            Реальный срочный выкуп! Никаких займов с обременением и прочих сомнительных схем, все прозрачно
+                        </div>
+                    </div>
                     </div>
                     <div class="swiper-slide">
                     <div class="about-block">
@@ -206,10 +259,10 @@
                         <div class="about-block-text">
                             Реальный срочный выкуп! Никаких займов с обременением и прочих сомнительных схем, все прозрачно
                         </div>
-                        <a id="5"></a> 
                     </div>
                     </div>
                 </div>
+                <a id="5"></a> 
                 <div class="swiper-pagination"></div>
             </div>
         </div>
