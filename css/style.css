@@ -237,7 +237,7 @@
         justify-content: start !important;
     }
     .logo{
-        width: 18% !important;
+        width: 25% !important;
     }
     .about-h1{
         font-size: 20px !important;
@@ -428,7 +428,7 @@ input{
     color: #3495fd;
 }
 .logo{
-    width: 8%;
+    width: 10%;
 }
 .logo img{
     width: 100%;
@@ -790,7 +790,7 @@ input::placeholder{
     width: 100%;
 }
 .footer-two img {
-    width: 150px;
+    width: 200px;
 }
 .send-me{
     display: flex;
