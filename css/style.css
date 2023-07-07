@@ -237,7 +237,7 @@
         justify-content: start !important;
     }
     .logo{
-        width: 25% !important;
+        width: 35% !important;
     }
     .about-h1{
         font-size: 20px !important;
@@ -428,7 +428,7 @@ input{
     color: #3495fd;
 }
 .logo{
-    width: 10%;
+    width: 12%;
 }
 .logo img{
     width: 100%;
