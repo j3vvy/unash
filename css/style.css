@@ -106,9 +106,6 @@
     .logo{
         width: 20% !important;
     }
-    .hid{
-        display: none !important;
-    }
     .pop-form{
         flex-direction: column !important;
         height: 300px !important;
@@ -192,6 +189,12 @@
     .table-text-w{
         font-size: 16px !important;
     }
+    .footer-content{
+        height: 800px !important;
+    }
+    .footer-two{
+        height: 1000px !important;
+    }
 }
 @media screen and (max-width: 480px){
     .sell {
@@ -253,7 +256,7 @@
     .footer-one{
         flex-direction: column !important;
         justify-content: space-between !important;
-        height: 350px !important;
+        height: 600px !important;
         align-items: center !important;
     }
     .footer-one{
